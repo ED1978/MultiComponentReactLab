@@ -1,11 +1,14 @@
-import React from 'react';
+import React, {Fragment} from 'react';
+import FilmReleaseList from '../components/FilmReleaseList';
 
 class FilmReleaseBox extends React.Component {
   render() {
     return (
-      <div className="film-release-box">
+      <Fragment>
         <h1>{this.props.title}</h1>
-      </div>
+        <FilmReleaseList />
+        <button>See More Upcomming Releases</button>
+      </Fragment>
     );
   }
 }
