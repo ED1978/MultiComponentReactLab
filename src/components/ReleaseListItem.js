@@ -4,7 +4,9 @@ class ReleaseListItem extends React.Component {
   render() {
     return (
       <div className="release-list-item">
-        <h4>{this.props.name}</h4>
+        <ul>
+          <li><a href={this.props.url}>{this.props.name}</a></li>
+        </ul>
       </div>
     )
   }

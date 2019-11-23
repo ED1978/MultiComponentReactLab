@@ -6,7 +6,7 @@ class FilmReleaseList extends React.Component {
 
     const listNodes = this.props.data.map(list => {
       return(
-        <ReleaseListItem name={list.name} key={list.id}></ReleaseListItem>
+        <ReleaseListItem url={list.url} name={list.name} key={list.id}></ReleaseListItem>
       )
     })
 
