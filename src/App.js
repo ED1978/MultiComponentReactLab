@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
+import FilmReleaseBox from './containers/FilmReleaseBox'
 
 function App() {
   return (
-    <h1>Hello</h1>
+    <FilmReleaseBox title="Upcomming UK Film Releases"/>
   );
 }
 
